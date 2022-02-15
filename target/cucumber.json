@@ -1,0 +1,153 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-15T22:59:56.689Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3165000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zeroHomework.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Savings account redirect",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity;savings-account-redirect",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zeroHomework.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4288000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.zeroHomework.step_definitions.AccountActivityNavigationStepsDefs.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 765000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "go to \"Online Banking\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Online Banking\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.zeroHomework.step_definitions.AccountActivityNavigationStepsDefs.go_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 271000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "select \"Account Summary\" in Online Banking Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Summary\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.zeroHomework.step_definitions.AccountActivityNavigationStepsDefs.select_in_Online_Banking_Page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 576000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks on \"Savings\" link on the Account Summary page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.zeroHomework.step_definitions.AccountActivityNavigationStepsDefs.the_user_clicks_on_link_on_the_Account_Summary_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the \"Account Activity\" page should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Activity\"",
+                  "offset": 4
+                }
+              ],
+              "location": "com.zeroHomework.step_definitions.AccountActivityNavigationStepsDefs.the_page_should_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Account drop down should have \"Savings\" selected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.zeroHomework.step_definitions.AccountActivityNavigationStepsDefs.account_drop_down_should_have_selected(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Navigating to specific accounts in Accounts Activity",
+    "description": "",
+    "id": "navigating-to-specific-accounts-in-accounts-activity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountActivityNavigation.feature",
+    "tags": []
+  }
+]
